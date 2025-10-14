@@ -115,10 +115,12 @@ const bosses = [
   {name: "Ringor", type: "fixed", schedule: [{day:6,hour:17,minute:0}]},
   {name: "Roderick", type: "fixed", schedule: [{day:5,hour:19,minute:0}]},
   {name: "Gareth", type: "interval", hours: 32, next: new Date("2025-10-14T15:24:00")},
-  {name: "Titore", type: "interval", hours: 37, next: new Date("2025-10-15T06:35:00")},
+  {name: "Titore", type: "interval", hours: 37, next: new Date("2025-10-15T10:40:00")},
   {name: "Ratan", type: "daily", schedule: [{hour:11,minute:0},{hour:20,minute:0}]},
   {name: "Parto", type: "daily", schedule: [{hour:11,minute:0},{hour:20,minute:0}]},
   {name: "Nedra", type: "daily", schedule: [{hour:11,minute:0},{hour:20,minute:0}]},
+  {name: "Larba", type: "interval", hours: 35, next: new Date("2025-10-16T11:24:00")},
+  {name: "Auraq", type: "fixed", schedule: [{day:3,hour:22,minute:00},{day:5,hour:21,minute:0}]},
 ];
 
 const container = document.getElementById("boss-container");
@@ -233,6 +235,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 </script>
 </body>
 </html>
+
 
 
 
